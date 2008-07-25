@@ -1,0 +1,103 @@
+libotr
+------------------------------------------
+Off-the-Record (OTR) Messaging allows you to have private 
+conversations over instant messaging.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libgcrypt11-1.4.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.62-1
+  automake1.9-1.9.6-2
+  binutils-20080523-2
+  cygport-0.3.13-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.cypherpunks.ca/otr/
+
+Canonical download:
+  http://www.cypherpunks.ca/otr/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libotr-3.2.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libotr-3.2.0-X.cygport all
+
+This will create:
+  /usr/src/libotr-3.2.0-X-src.tar.bz2
+  /usr/src/libotr-3.2.0-X.tar.bz2
+  /usr/src/libotr-devel-3.2.0-X.tar.bz2
+  /usr/src/libotr2-3.2.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libotr-bin)
+  /usr/bin/otr_mackey.exe
+  /usr/bin/otr_modify.exe
+  /usr/bin/otr_parse.exe
+  /usr/bin/otr_readforge.exe
+  /usr/bin/otr_remac.exe
+  /usr/bin/otr_sesskeys.exe
+  /usr/share/doc/libotr-3.2.0/AUTHORS
+  /usr/share/doc/libotr-3.2.0/COPYING
+  /usr/share/doc/libotr-3.2.0/COPYING.LIB
+  /usr/share/doc/libotr-3.2.0/ChangeLog
+  /usr/share/doc/libotr-3.2.0/INSTALL
+  /usr/share/doc/libotr-3.2.0/NEWS
+  /usr/share/doc/libotr-3.2.0/README
+  /usr/share/man/man1/otr_mackey.1.gz
+  /usr/share/man/man1/otr_modify.1.gz
+  /usr/share/man/man1/otr_parse.1.gz
+  /usr/share/man/man1/otr_readforge.1.gz
+  /usr/share/man/man1/otr_remac.1.gz
+  /usr/share/man/man1/otr_sesskeys.1.gz
+  /usr/share/man/man1/otr_toolkit.1.gz
+
+(libotr2)
+  /usr/bin/cygotr-2.dll
+
+(libotr-devel)
+  /usr/include/libotr/auth.h
+  /usr/include/libotr/b64.h
+  /usr/include/libotr/context.h
+  /usr/include/libotr/dh.h
+  /usr/include/libotr/mem.h
+  /usr/include/libotr/message.h
+  /usr/include/libotr/privkey-t.h
+  /usr/include/libotr/privkey.h
+  /usr/include/libotr/proto.h
+  /usr/include/libotr/serial.h
+  /usr/include/libotr/sm.h
+  /usr/include/libotr/tlv.h
+  /usr/include/libotr/userstate.h
+  /usr/include/libotr/version.h
+  /usr/lib/libotr.a
+  /usr/lib/libotr.dll.a
+  /usr/lib/libotr.la
+  /usr/lib/pkgconfig/libotr.pc
+  /usr/share/aclocal/libotr.m4
+
+------------------
+
+Port Notes:
+
+----- version 3.2.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
