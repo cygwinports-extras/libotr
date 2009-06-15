@@ -1,6 +1,5 @@
 category: Net
-requires: cygwin libgcrypt11 libotr2
-external-source: libotr
+requires: cygwin libgcc1 libgcrypt11 libotr2
 sdesc: "Off-the-Record messaging library (apps)"
 ldesc: "Off-the-Record (OTR) Messaging allows you to have private
 conversations over instant messaging."

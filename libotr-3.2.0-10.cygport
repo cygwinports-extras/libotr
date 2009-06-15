@@ -1,0 +1,11 @@
+DESCRIPTION="Off-the-Record messaging library"
+HOMEPAGE="http://www.cypherpunks.ca/otr/"
+SRC_URI="http://www.cypherpunks.ca/otr/${P}.tar.gz"
+PATCH_URI="3.2.0-no-undefined.patch
+           3.2.0-vpath.patch"
+
+PKG_NAMES="${PN} ${PN}2 ${PN}-devel"
+PKG_HINTS="bin dll devel"
+libotr_CONTENTS="usr/bin/*.exe usr/share/doc/ usr/share/man/"
+libotr2_CONTENTS="usr/bin/*-2.dll"
+libotr_devel_CONTENTS="usr/include/ usr/lib/ usr/share/aclocal/"
