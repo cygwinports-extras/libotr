@@ -1,5 +1,5 @@
 category: Net
-requires: cygwin libgcrypt-devel libotr2
+requires: libgcrypt-devel libotr2
 external-source: libotr
 sdesc: "Off-the-Record messaging library (libdevel)"
 ldesc: "Off-the-Record (OTR) Messaging allows you to have private
