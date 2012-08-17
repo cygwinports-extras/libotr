@@ -1,6 +1,0 @@
-category: Net
-requires: libgcc1 libgcrypt11
-external-source: libotr
-sdesc: "Off-the-Record messaging library (runtime)"
-ldesc: "Off-the-Record (OTR) Messaging allows you to have private
-conversations over instant messaging."
