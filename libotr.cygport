@@ -1,6 +1,6 @@
 NAME="libotr"
 VERSION=4.0.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="Off-the-Record messaging library"
 DESCRIPTION="Off-the-Record (OTR) Messaging allows you to have private
